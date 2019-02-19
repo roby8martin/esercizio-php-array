@@ -16,9 +16,33 @@
   </head>
 
   <body>
-    <h1>Hello, world!</h1>
+ 		
+ 		<ul>
+  	<?php
+  		$a = ['5', '10', '20', '1', '8'];
 
-    
+  		for ($i=0; $i < count ($a) ; $i++) { 
+  	  	print '<li>'.$a [$i].'</li>';
+  	  }
+  	?>
+  	</ul>
+
+		<?php
+  		$a = ['mela', 'kiwi', 'pera'];
+
+  		 	echo $a[1];
+  	?>
+
+  	<ul>
+  	<?php
+  		$array = ['mela', 'kiwi', 'pera'];
+
+  		 for ($i=0; $i < count($array) ; $i++) { 
+  		 echo '<li>' . $array[$i] . '</li>';
+  		 }
+  	?>
+    </ul>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.min.js"></script>
